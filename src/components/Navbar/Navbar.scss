@@ -1,0 +1,111 @@
+// LOGO FONT
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+.tipography {
+  font-family: "Cinzel", serif;
+}
+.tipography:hover {
+  color: purple;
+}
+.moda {
+  width: 6rem;
+  height: 5rem;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+//////////////
+
+.navbar {
+  height: 80px;
+
+  .wrapper {
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .center {
+      font-size: 30px;
+      letter-spacing: 2px;
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+      .home__icons {
+        display: flex;
+        gap: 10px;
+        color: #777;
+        cursor: pointer;
+
+        .cartIcon {
+          position: relative;
+          span {
+            font-size: 12px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: purple;
+            color: white;
+            position: absolute;
+            right: -10px;
+            top: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .cartIcon:hover {
+              color: purple;
+            }
+          }
+        }
+
+        .favoriteIcon {
+          position: relative;
+          span {
+            font-size: 12px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: purple;
+            color: white;
+            position: absolute;
+            right: -10px;
+            top: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .favoriteIcon:hover {
+              color: purple;
+            }
+          }
+        }
+
+        .personIcon:hover {
+          color: purple;
+        }
+
+        .searchIcon:hover {
+          color: purple;
+        }
+      }
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      cursor: pointer;
+    }
+  }
+}

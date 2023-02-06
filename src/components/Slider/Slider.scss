@@ -1,0 +1,43 @@
+.slider {
+  height: calc(100vh - 80px);
+  width: 100vw;
+  position: relative;
+  overflow: hiddens;
+
+  .container {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: all 1s ease;
+
+    .slider__img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .slider__arrows {
+    width: fit-content;
+    display: flex;
+    position: relative;
+    left: 0;
+    width: 0;
+    bottom: 100px;
+    gap: 10px;
+    margin: auto;
+
+    .slider__arrow {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #999;
+      display: flex;
+      align-items: center;
+      justify-content: center !important;
+      cursor: pointer;
+    }
+    .slider__arrow:hover {
+      color: purple;
+    }
+  }
+}
