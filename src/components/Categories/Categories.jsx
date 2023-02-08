@@ -9,7 +9,11 @@ const Categories = () => {
       {/* COL 1 */}
       <div className="col">
         {/* ROW 1 */}
-        <motion.div whileHover={{ scale: 1.1 }} className="row">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className="row"
+        >
           <img
             src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
@@ -21,7 +25,11 @@ const Categories = () => {
           </motion.button>
         </motion.div>
         {/* ROW 2 */}
-        <motion.div whileHover={{ scale: 1.1 }} className="row">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className="row"
+        >
           <img
             src="https://images.pexels.com/photos/2036646/pexels-photo-2036646.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
@@ -37,7 +45,11 @@ const Categories = () => {
       {/* COL 2 */}
       <div className="col">
         {/* ROW 3 */}
-        <motion.div whileHover={{ scale: 1.1 }} className="row">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className="row"
+        >
           <img
             src="https://images.pexels.com/photos/1813947/pexels-photo-1813947.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""
@@ -55,7 +67,11 @@ const Categories = () => {
         <div className="row">
           <div className="col">
             {/* ROW 4 */}
-            <motion.div whileHover={{ scale: 1.1 }} className="row">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="row"
+            >
               <img
                 src="https://images.pexels.com/photos/1192609/pexels-photo-1192609.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
@@ -69,7 +85,11 @@ const Categories = () => {
           </div>
           <div className="col">
             {/* ROW 5 */}
-            <motion.div whileHover={{ scale: 1.1 }} className="row">
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="row"
+            >
               <img
                 src="https://images.pexels.com/photos/2703202/pexels-photo-2703202.jpeg?auto=compress&cs=tinysrgb&w=1600"
                 alt=""
@@ -83,7 +103,11 @@ const Categories = () => {
           </div>
         </div>
         {/* ROW 6 */}
-        <motion.div whileHover={{ scale: 1.1 }} className="row">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          className="row"
+        >
           <img
             src="https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=1600"
             alt=""

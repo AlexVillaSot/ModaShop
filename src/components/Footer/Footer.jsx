@@ -14,78 +14,103 @@ const Footer = () => {
       <div className="top">
         <div className="item">
           <h2>Categorías</h2>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Damas
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Caballeros
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Zapatos
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Accesorios
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Nueva Mercancía
           </motion.span>
         </div>
         <div className="item">
           <h2>Enlaces</h2>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             FAQ
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Páginas
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Tiendas
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Comparar
           </motion.span>
-          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+          <motion.span
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            className="tipography"
+          >
             Cookies
           </motion.span>
         </div>
         <div className="item">
           <h2>Nosotros</h2>
           <span className="tipography">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-            consequatur aliquam iusto cumque voluptates amet temporibus
-            incidunt, inventore soluta dolor.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            enim velit rem molestias, voluptates officia reiciendis totam? Sequi
+            atque beatae sapiente velit ratione consequuntur a incidunt, vero,
+            voluptatem eaque voluptas!
           </span>
         </div>
         <div className="item">
           <h2>Contáctanos</h2>
-          <motion.div whileHover={{ scale: 1.1 }}>
-            <span>
-              <p>
-                <Place className="footer__icon" />{" "}
-                <span className="tipography">
-                  2097 S Sheridan Blvd, Denver, Colorado
-                </span>{" "}
-              </p>
-            </span>
-          </motion.div>
-          <motion.div whileHover={{ scale: 1.1 }}>
-            <span>
-              <p>
-                <Phone className="footer__icon" />{" "}
-                <span className="tipography">+1-(202)-555-0199</span>{" "}
-              </p>
-            </span>
-          </motion.div>
-          <motion.div whileHover={{ scale: 1.1 }}>
-            <span>
-              <p>
-                <Email className="footer__icon" />{" "}
-                <span className="tipography">
-                  modashopmarket<span>@</span>ecommerce.com
-                </span>
-              </p>
-            </span>
-          </motion.div>
+          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+            <Place className="footer__icon" />
+            2097 St. Sheridan Blvd, Denver, Colorado
+          </motion.span>
+          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+            <Phone className="footer__icon" />
+            +1-(202)-555-0199
+          </motion.span>
+          <motion.span whileHover={{ scale: 1.1 }} className="tipography">
+            <Email className="footer__icon" /> modashopmarket<span>@</span>
+            ecommerce.com
+          </motion.span>
         </div>
       </div>
 
@@ -94,7 +119,7 @@ const Footer = () => {
         {/* BOTTOM LEFT SIDE */}
         <div className="left">
           <motion.span whileTap={{ scale: 1.1 }}>
-            <img className="moda" src="/img/moda-logo.png" alt="" />
+            <img className="moda__footer" src="/img/moda-logo.png" alt="" />
           </motion.span>
           <span className="copyright">
             © {year}{" "}

@@ -6,10 +6,18 @@
 .tipography:hover {
   color: purple;
 }
-.moda {
+.moda__header {
   width: 6rem;
   height: 5rem;
-  padding: 0px;
+  padding: 0px 0px 0px 100px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.moda__footer {
+  width: 6rem;
+  height: 5rem;
+  padding: 0px 0px 0px 0px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -20,7 +28,7 @@
   height: 80px;
 
   .wrapper {
-    padding: 0px 30px;
+    padding: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -104,7 +112,7 @@
     .item {
       display: flex;
       align-items: center;
-      font-size: 15px;
+      font-size: 13px;
       cursor: pointer;
     }
   }

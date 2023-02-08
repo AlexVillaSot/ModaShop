@@ -1,2 +1,49 @@
 .products {
+  padding: 30px 80px 100px 20px;
+  display: flex;
+
+  label {
+    font-size: 12px;
+  }
+
+  .left {
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 50px;
+
+    .filterItem {
+      margin-bottom: 30px;
+
+      h2 {
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 15px;
+      }
+
+      .inputItem {
+        margin-bottom: 10px;
+
+        label {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  .right {
+    flex: 3;
+  }
+
+  .catImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+
+  .check,
+  .range,
+  .asc {
+    accent-color: purple;
+  }
 }
